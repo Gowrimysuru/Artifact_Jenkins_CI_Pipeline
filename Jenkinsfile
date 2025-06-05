@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git branch: 'main', url: 'https://github.com/Gowrimysuru/TEGSSS.git'
+                git branch: 'main', url: 'https://github.com/Gowrimysuru/Artifact_Jenkins_CI_Pipeline.git'
             }
         }
 
